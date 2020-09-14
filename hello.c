@@ -1,8 +1,9 @@
   #include<stdio.h>
-  
+  int a;
+  int b;
+
   int main(){
-    int ret;
-    ret = soma(2, 3);
-    printf("O resultado é: %d", ret);
+    soma = a+b;
+    printf("%d\n", soma);
     return 0;
   }
